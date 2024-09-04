@@ -26,28 +26,32 @@
         font-family: "Poppins", sans-serif;
       }
     </style>
-     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'bike-primary': '#E76F51',
-                'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
-              }
-            }
-          }
-        }
-      </script>
-      <style>
-        * { border: 1px solid red; }
-        body { border: 2px dashed blue; }
-        </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "bike-primary": "#E76F51",
+              "bike-primary-bg": "rgba(231, 111, 81, 0.1)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        border: 1px solid red;
+      }
+      body {
+        border: 2px dashed blue;
+      }
+    </style>
   </head>
   <body class="font-poopins">
     <header class="md:container mx-auto">
       <!-- navbar -->
-      <div class="navbar bg-base-100 ">
+      <div class="navbar bg-base-100">
         <div class="flex-1">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -76,7 +80,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="font-bold text-xl ">Biker Zone</a>
+          <a class="font-bold text-xl">Biker Zone</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -94,60 +98,84 @@
       <div class="carousel w-full bg-bike-primary-bg lg:h[550px]">
         <!-- slide1 -->
         <div id="slide1" class="carousel-item relative w-full">
-            <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <!-- text content -->
-                <div class="space-y-7 flex-1">
-                    <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                    <p>Amet minim mollit non deserunt ullamco <br>est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-bike-primary text-white">Purchase</button>
-                </div>
-                <!-- img content -->
-                <div class="flex-1">  
-                    <img
-                    src="Images/slider/bike1.png"
-                    class="w-[400px]" /></div>
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
-          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <!-- img content -->
+            <div class="flex-1">
+              <img src="Images/slider/bike1.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
             <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
         <!-- slide2 -->
         <div id="slide2" class="carousel-item relative w-full">
-            <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <!-- text content -->
-                <div class="space-y-7 flex-1">
-                    <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                    <p>Amet minim mollit non deserunt ullamco <br>est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-bike-primary text-white">Purchase</button>
-                </div>
-                <!-- img content -->
-                <div class="flex-1">  
-                    <img
-                    src="Images/slider/bike2.png"
-                    class="w-[400px]" /></div>
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
-          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <!-- img content -->
+            <div class="flex-1">
+              <img src="Images/slider/bike2.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
             <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
         <!-- slide3 -->
         <div id="slide3" class="carousel-item relative w-full">
-            <div class="flex flex-col lg:flex-row p-12 lg:p-24">
-                <!-- text content -->
-                <div class="space-y-7 flex-1">
-                    <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                    <p>Amet minim mollit non deserunt ullamco <br>est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-bike-primary text-white">Purchase</button>
-                </div>
-                <!-- img content -->
-                <div class="flex-1">  
-                    <img
-                    src="Images/slider/bike3.png"
-                    class="w-[400px]" /></div>
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
-          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <!-- img content -->
+            <div class="flex-1">
+              <img src="Images/slider/bike3.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
             <a href="#slide2" class="btn btn-circle">❮</a>
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
@@ -155,57 +183,75 @@
       </div>
 
       <!-- footer section -->
-       <section class="my-24">
-        <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
-        <div class="hero  min-h-screen">
-            <div class="hero-content flex-col lg:flex-row">
-              <img
-                src="Images/others/faq.png"
-                class="w-full rounded-lg shadow-2xl" />
-              <div class="space-y-4">
-                <div class="collapse collapse-arrow border border-blue-100 ">
-                    <input type="radio" name="my-accordion-2" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">What are the most important things I should
-                        know about riding a bike?</div>
-                    <div class="collapse-content">
-                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-arrow border border-blue-100 ">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a new one?</div>
-                    <div class="collapse-content">
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-arrow border border-blue-100">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
-                    <div class="collapse-content">
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-arrow border border-blue-100">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
-                    <div class="collapse-content">
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-arrow border border-blue-100">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
-                    <div class="collapse-content">
-                      <p>hello</p>
-                    </div>
-                  </div>
+      <section class="my-24">
+        <h3 class="text-5xl font-bold text-center mb-12">
+          Frequently Asked <span class="text-bike-primary">Questions</span>
+        </h3>
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col lg:flex-row">
+            <img
+              src="Images/others/faq.png"
+              class="w-full rounded-lg shadow-2xl"
+            />
+            <div class="space-y-4">
+              <div class="collapse collapse-arrow border border-blue-100">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border border-blue-100">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  How can I tell if my helmet is old and I need a new one?
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border border-blue-100">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border border-blue-100">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border border-blue-100">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  What rules should I follow when riding my bike?
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
               </div>
             </div>
           </div>
-       </section>
-
+        </div>
+      </section>
     </header>
     <main></main>
-    <footer></footer>
+    <footer></footer>           
   </body>
 </html>
+<!-- all section done -->
